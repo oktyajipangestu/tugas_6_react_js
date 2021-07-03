@@ -1,9 +1,13 @@
 import { Component } from 'react';
+import MenuHome from './Page/MenuHome';
 
 class App extends Component {
   render() {
     return (
-      <div></div>
+      <div>
+        <MenuHome />
+        <br />
+      </div>
     );
   }
 }
